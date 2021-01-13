@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Assistant', sans-serif;
+    z-index: 2;
+    // font-family: 'Modak', cursive;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    position: relative;
+}
+
+
+ul {
+    list-style-type: none;
+}
+
+a:link,
+a:active,
+a:visited,
+a:focus {
+    // color: black;
+    text-decoration: none;
+    
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+input,
+textarea {
+    outline: none;
+    border: transparent;
+}
