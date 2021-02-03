@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Assistant', sans-serif;
+    font-family: 'Montserrat', 'Assistant', sans-serif;
     z-index: 2;
     // font-family: 'Modak', cursive;
 }
@@ -40,3 +40,17 @@ textarea {
     outline: none;
     border: transparent;
 }
+
+h1, h2, p, li, label, span, input, textarea {
+
+    direction: rtl;
+    text-align: right;
+    font-weight: 100;
+    // font-family: 'Modak', cursive;
+
+    &.non-hebrew, 
+    &.non-hebrew * {
+        text-align: left;
+        direction: ltr;
+    }
+} 
